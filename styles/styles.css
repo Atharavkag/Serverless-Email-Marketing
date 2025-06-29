@@ -1,0 +1,305 @@
+/* Client-specific resets for email compatibility */
+div, p, a, li, td { -webkit-text-size-adjust: none; }
+#outlook a { padding: 0; }
+.ReadMsgBody { width: 100%; background-color: #f0f2f5; }
+.ExternalClass { width: 100%; background-color: #f0f2f5; }
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; }
+body, table, td, p, a, li, blockquote { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+
+/* General Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f2f5;
+    line-height: 1.6;
+    color: #374151;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Outer Container for Full Screen Feel */
+.outer-wrapper {
+    background-color: #f0f2f5;
+    padding: 0;
+    width: 100%;
+    flex-grow: 1;
+}
+
+/* Main Content Table and Container */
+table {
+    border-collapse: collapse;
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.main-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden; /* Ensures border-radius applies to children */
+}
+
+/* Header Section */
+.header {
+    background: linear-gradient(90deg, #1a4a9a, #4a90f0);
+    padding: 30px 20px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 12px 12px 0 0;
+}
+
+.header img {
+    max-width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+}
+
+.header h1 {
+    font-size: 32px;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Content Sections */
+.content {
+    padding: 40px 5%;
+}
+
+h2 {
+    font-size: 22px;
+    color: #1a4a9a;
+    margin: 40px 0 20px;
+    font-weight: 600;
+    border-bottom: 3px solid #e5e7eb;
+    padding-bottom: 12px;
+    position: relative;
+}
+
+h2::before { /* Style for section icons */
+    content: attr(data-icon);
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #4a90f0;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+p {
+    font-size: 17px;
+    color: #3f4a5a;
+    margin: 12px 0;
+    line-height: 1.8;
+}
+
+a {
+    color: #4a90f0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1a4a9a;
+    text-decoration: underline;
+}
+
+.highlight-card {
+    background-color: #fcfdff;
+    padding: 25px;
+    border-left: 6px solid #4a90f0;
+    margin: 25px 0;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease-in-out;
+}
+.highlight-card:hover {
+    transform: translateY(-3px);
+}
+
+.highlight-card p {
+    margin: 10px 0;
+    color: #2e3b4a;
+}
+
+.highlight-card strong {
+    color: #1a4a9a;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+ul li {
+    font-size: 17px;
+    color: #3f4a5a;
+    padding: 12px 0 12px 30px;
+    position: relative;
+    border-bottom: 1px dashed #eef2f5;
+}
+ul li:last-child {
+    border-bottom: none;
+}
+
+ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #4a90f0;
+    font-size: 22px;
+    line-height: 1;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Call to Action Button */
+.cta-button {
+    display: inline-block;
+    background-color: #4a90f0;
+    color: #ffffff;
+    padding: 16px 32px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin: 40px auto;
+    display: block;
+    width: fit-content;
+    max-width: 90%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 6px 15px rgba(74, 144, 240, 0.4);
+}
+
+.cta-button:hover {
+    background-color: #1a4a9a;
+    transform: translateY(-2px);
+}
+
+/* Footer Section */
+.footer {
+    background-color: #ebf2f7;
+    padding: 30px 25px;
+    text-align: center;
+    font-size: 14px;
+    color: #6b7280;
+    border-top: 1px solid #dce4eb;
+    border-radius: 0 0 12px 12px;
+}
+
+.footer p {
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+.footer a {
+    color: #4a90f0;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+a.footer:hover { /* Specific hover for footer links */
+    color: #1a4a9a;
+    text-decoration: underline;
+}
+
+.social-links {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.social-links img {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin: 0 8px;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+}
+.social-links img:hover {
+    transform: translateY(-2px);
+}
+
+/* Responsive design for smaller screens */
+@media only screen and (max-width: 768px) {
+    body {
+        justify-content: flex-start;
+    }
+    .outer-wrapper {
+        padding: 0;
+    }
+    table {
+        width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .main-container {
+        border-radius: 0;
+    }
+    .content {
+        padding: 25px 20px;
+    }
+    .header h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 20px;
+        margin: 30px 0 15px;
+        padding-bottom: 8px;
+    }
+    h2::before {
+        font-size: 22px;
+        margin-right: 8px;
+    }
+    p, ul li {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+    ul li {
+        padding: 10px 0 10px 25px;
+    }
+    ul li::before {
+        font-size: 20px;
+    }
+    .cta-button {
+        width: 100%;
+        max-width: none;
+        box-sizing: border-box;
+        padding: 14px 25px;
+        font-size: 17px;
+    }
+    .footer {
+        padding: 25px 20px;
+        border-radius: 0;
+    }
+    .social-links img {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .content {
+        padding: 20px 15px;
+    }
+    .header h1 {
+        font-size: 24px;
+    }
+}
