@@ -16,7 +16,8 @@ The TechTide application leverages AWS Lambda, Amazon S3, Amazon SES, and Amazon
 
 ### ✅ Architecture Flow
 
-![TechTide Architecture]([https://raw.githubusercontent.com/Atharavkag/Serverless-Email-Marketing/main/assets/architecture-diagram.png](https://github.com/Atharavkag/Serverless-Email-Marketing/blob/main/assets/flow.png))
+![TechTide Architecture](https://raw.githubusercontent.com/Atharavkag/Serverless-Email-Marketing/main/assets/flow.png)
+
 
 ---
 
