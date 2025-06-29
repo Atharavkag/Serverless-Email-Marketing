@@ -25,7 +25,9 @@ TechTide leverages AWS serverless services to ensure scalability, cost-efficienc
 
 > ![TechTide Architecture](https://github.com/Atharavkag/Serverless-Email-Marketing/raw/main/assets/architecture.png)
 
-##Lambda Invocation Metrics
+---
+
+## Lambda Monitoring Metrices
 
 ![Alt Text](https://raw.githubusercontent.com/Atharavkag/Serverless-Email-Marketing/main/assets/lambda-metrics-1.png)
 
