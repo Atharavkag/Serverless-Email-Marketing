@@ -4,13 +4,13 @@
 
 ---
 
-## 🌐 Project Overview
+## Project Overview
 
 TechTide enables tech bloggers, communities, and organizations to send engaging newsletters without relying on third-party marketing platforms. With simple CSV-based subscriber management and a flexible HTML email template system, it's ideal for developers who want full control over email content, automation, and branding.
 
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 
 TechTide is built using the following AWS services:
 
@@ -23,7 +23,7 @@ TechTide is built using the following AWS services:
 
 ---
 
-## ✅ Architecture Flow
+## Architecture Flow
 
 The system follows a clean event-driven architecture that runs autonomously once deployed.
 
@@ -62,7 +62,7 @@ Monitoring is enabled through AWS CloudWatch, giving visibility into Lambda invo
 
 ---
 
-## 🧰 Use Cases
+## Use Cases
 
 - Sending weekly or monthly newsletters to a subscriber list.
 - Sharing tech news, product updates, blog summaries, or event announcements.
@@ -71,7 +71,7 @@ Monitoring is enabled through AWS CloudWatch, giving visibility into Lambda invo
 
 ---
 
-## 📌 Highlights
+## Highlights
 
 - **Completely serverless**: No EC2 or container setup required.
 - **Flexible templates**: Easily update HTML/CSS-based templates in S3.
@@ -81,7 +81,7 @@ Monitoring is enabled through AWS CloudWatch, giving visibility into Lambda invo
 
 ---
 
-## 🛣️ Future Roadmap
+## 🛣Future Roadmap
 
 TechTide is built to scale. Planned improvements include:
 
@@ -93,7 +93,7 @@ TechTide is built to scale. Planned improvements include:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Have suggestions, fixes, or improvements? Contributions are welcome!
 
@@ -106,21 +106,6 @@ For contribution standards, see [`contributing.md`](./contributing.md)
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License**. You are free to use, modify, and distribute this project with attribution.
-
----
-
-## 📬 Contact & Feedback
-
-For questions, feedback, or collaboration ideas, feel free to:
-
-- Open an issue on GitHub
-- Submit a pull request
-- Connect via your GitHub profile
-
----
 
 ## 📚 Related AWS Resources
 
