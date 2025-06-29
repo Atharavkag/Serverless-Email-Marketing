@@ -85,11 +85,11 @@ Monitoring is enabled through AWS CloudWatch, giving visibility into Lambda invo
 
 TechTide is built to scale. Planned improvements include:
 
-- ⚙️ DynamoDB-based subscriber management
-- 🧾 Unsubscribe functionality with secure token-based links
-- 📬 Support for multiple templates and campaigns
-- 📈 Analytics dashboard for tracking open and click rates
-- 💻 Admin dashboard for uploading subscribers and previewing content
+- DynamoDB-based subscriber management
+- Unsubscribe functionality with secure token-based links
+- Support for multiple templates and campaigns
+- Analytics dashboard for tracking open and click rates
+- Admin dashboard for uploading subscribers and previewing content
 
 ---
 
