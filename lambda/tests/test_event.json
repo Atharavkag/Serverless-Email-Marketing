@@ -1,0 +1,6 @@
+{
+  // This is a generic test event used for scheduled Lambda function executions.
+  "comment": "Generic test event for scheduled Lambda execution. The function does not use this event data.",
+  // The 'test' field, set to 'true', indicates that this is a test event.
+  "test": true
+}
