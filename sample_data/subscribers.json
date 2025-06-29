@@ -1,0 +1,26 @@
+[
+    {
+        "FirstName": "John Doe",
+        "Email": "john.doe@example.com",
+        "Subscribed": true,
+        "SubscriptionDate": "2025-06-01"
+    },
+    {
+        "FirstName": "Jane Smith",
+        "Email": "jane.smith@example.com",
+        "Subscribed": true,
+        "SubscriptionDate": "2025-06-02"
+    },
+    {
+        "FirstName": "Alex Johnson",
+        "Email": "alex.johnson@example.com",
+        "Subscribed": true,
+        "SubscriptionDate": "2025-06-03"
+    },
+    {
+        "FirstName": "Emily Brown",
+        "Email": "emily.brown@example.com",
+        "Subscribed": true,
+        "SubscriptionDate": "2025-06-04"
+    }
+]
