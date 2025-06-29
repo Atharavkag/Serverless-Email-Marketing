@@ -23,11 +23,8 @@ TechTide leverages AWS serverless services to ensure scalability, cost-efficienc
 
 ## Architecture Diagram
 
-> **Note:** Replace the URL below with your actual diagram location.  
-> Example:  
-> ![TechTide Architecture]([https://raw.githubusercontent.com/Atharavkag/TechTide/main/assets/tech-tide-architecture.png](https://github.com/Atharavkag/Serverless-Email-Marketing/blob/main/assets/architecture.png))
+> ![TechTide Architecture](https://github.com/Atharavkag/Serverless-Email-Marketing/raw/main/assets/architecture.png)
 
----
 
 ## Detailed Architecture
 
