@@ -24,8 +24,9 @@ TechTide leverages AWS serverless services to ensure scalability, cost-efficienc
 ## Architecture Diagram
 
 > ![TechTide Architecture](https://github.com/Atharavkag/Serverless-Email-Marketing/raw/main/assets/architecture.png)
-> ![Architecture Diagram]([https://raw.githubusercontent.com/<username>/<repo-name>/main/assets/architecture-diagram.png](https://github.com/Atharavkag/Serverless-Email-Marketing/blob/main/assets/lambda-metrics-1.png))
-![Architecture Diagram]([https://raw.githubusercontent.com/Atharavkag/TechTide/main/assets/architecture-diagram.png](https://github.com/Atharavkag/Serverless-Email-Marketing/blob/main/assets/lambda-metrics-2.png))
+![Alt Text](https://raw.githubusercontent.com/Atharavkag/Serverless-Email-Marketing/main/assets/lambda-metrics-1.png)
+
+![Alt Text](https://raw.githubusercontent.com/Atharavkag/Serverless-Email-Marketing/main/assets/lambda-metrics-2.png)
 
 
 
