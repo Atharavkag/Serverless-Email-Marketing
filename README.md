@@ -81,7 +81,7 @@ Monitoring is enabled through AWS CloudWatch, giving visibility into Lambda invo
 
 ---
 
-## 🛣Future Roadmap
+## Future Roadmap
 
 TechTide is built to scale. Planned improvements include:
 
